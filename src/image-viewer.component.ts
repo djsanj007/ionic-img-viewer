@@ -25,6 +25,11 @@ import { ImageViewerEnter, ImageViewerLeave } from './image-viewer-transitions';
 	template: `
 		<ion-header no-border>
 			<ion-navbar>
+				<ion-buttons end>
+					<button (click)="shareMe()">
+					Share
+					</button>
+				</ion-buttons>
 			</ion-navbar>
 		</ion-header>
 
